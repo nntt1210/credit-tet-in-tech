@@ -240,16 +240,15 @@
 	}
   
 	.navbar-container .hamburger-lines {
-	  display: block;
-	  height: 23px;
-	  width: 35px;
-	  position: absolute;
-	  top: 17px;
-	  left: 20px;
-	  z-index: 2;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: space-between;
+		display: flex;
+		flex-direction: column;
+		height: 18px;
+		justify-content: space-between;
+		left: 12px;
+		position: absolute;
+		top: 21px;
+		width: 23px;
+		z-index: 2;
 	}
   
 	.navbar-container .hamburger-lines .line {

@@ -1,5 +1,34 @@
 import React from "react";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 
-export const Squad = () => {
-	return <div>squad</div>;
+function CustomTabPanel(props) {
+	const { children, value, index, ...other } = props;
+
+	return (
+		<div
+			role="tabpanel"
+			hidden={value !== index}
+			id={`simple-tabpanel-${index}`}
+			aria-labelledby={`simple-tab-${index}`}
+			{...other}
+		>
+			{value === index && (
+				<Box sx={{ p: 3 }}>
+					<Typography>{children}</Typography>
+				</Box>
+			)}
+		</div>
+	);
+}
+
+export const Squad = ({ value, index, mainContent, secondaryContent }) => {
+	return (
+		<CustomTabPanel value={value} index={index}>
+			<div style={{ textAlign: "justify" }}>{mainContent}</div>
+			<div style={{ marginTop: "1rem", textAlign: "justify" }}>
+				{secondaryContent}
+			</div>
+		</CustomTabPanel>
+	);
 };

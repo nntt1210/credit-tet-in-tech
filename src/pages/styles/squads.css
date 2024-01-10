@@ -1,17 +1,11 @@
-.RRT__container {
-    padding-top: 4rem;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.RRT__tabs {
-    flex-wrap: unset!important;
-    overflow: auto;
+.MuiBox-root { 
+	padding-top: 2rem;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 @media (max-width: 1270px) {
-	.RRT__container {
+	.MuiBox-root {
 		max-width: 90%;
 		padding-left: 10%;
 		padding-right: 10%;
@@ -19,15 +13,20 @@
 }
 
 @media (max-width: 1024px) {
-	.RRT__container {
+	.MuiBox-root {
 		max-width: 980px;
 	}
 }
 
 @media (max-width: 800px) {
-	.RRT__container {
+	.MuiBox-root {
 		max-width: 90%;
 		margin: 0 auto;
-		padding: 4rem 10px;
+		padding: 2rem 10px 0 10px;
 	}
+}
+
+.MuiButtonBase-root {
+	font-weight: 600!important;
+    text-transform: none!important;
 }
