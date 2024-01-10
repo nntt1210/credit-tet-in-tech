@@ -7,7 +7,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/homepage.css";
-import ImageCarousel from "../components/homepage/carousel";
+import HomePageCarousel from "../components/homepage/carousel";
 
 const Homepage = () => {
 	useEffect(() => {
@@ -66,7 +66,7 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<ImageCarousel />
+						<HomePageCarousel />
 
 						<div className="page-footer">
 							<Footer />

@@ -1,6 +1,7 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import { Carousel } from "react-responsive-carousel";
 
 function CustomTabPanel(props) {
 	const { children, value, index, ...other } = props;
@@ -22,13 +23,26 @@ function CustomTabPanel(props) {
 	);
 }
 
-export const Squad = ({ value, index, mainContent, secondaryContent }) => {
+export const Squad = ({
+	value,
+	index,
+	mainContent,
+	secondaryContent,
+	images,
+}) => {
 	return (
 		<CustomTabPanel value={value} index={index}>
 			<div style={{ textAlign: "justify" }}>{mainContent}</div>
 			<div style={{ marginTop: "1rem", textAlign: "justify" }}>
 				{secondaryContent}
 			</div>
+			<Carousel>
+				{images.map((image, index) => (
+					<div>
+						<img src={image} alt={"squad" + index} />
+					</div>
+				))}
+			</Carousel>
 		</CustomTabPanel>
 	);
 };
