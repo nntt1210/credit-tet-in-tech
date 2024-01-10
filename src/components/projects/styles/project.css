@@ -7,23 +7,8 @@
 	height: 100%;
 }
 
-.project a {
-	text-decoration: none;
-}
-
-.project:hover {
-	background: #fafafa;
-	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
-}
-
-.project:hover .project-link {
-	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
-}
-
 .project-container {
-	padding: 30px;
+	padding: 20px 30px;
 }
 
 .project-logo {
@@ -64,10 +49,4 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
-}
-
-@media (max-width: 600px) {
-	.project {
-		height: 300px;
-	}
 }

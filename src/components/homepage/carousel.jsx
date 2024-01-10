@@ -5,16 +5,16 @@ const ImageCarousel = () => {
 	return (
 		<Carousel>
 			<div>
-				<img src="IMG_0778.JPG" alt="Legend 1" />
-				<p className="legend">Legend 1</p>
+				<img src="IMG_0778.JPG" alt="Nghia's farewell" />
+				<p className="legend">Nghia's farewell</p>
 			</div>
 			<div>
-				<img src="IMG_0780.JPG" alt="Legend 2" />
-				<p className="legend">Legend 2</p>
+				<img src="IMG_0780.JPG" alt="Phu Yen trip" />
+				<p className="legend">Phu Yen trip</p>
 			</div>
 			<div>
-				<img src="IMG_0781.JPG" alt="Legend 3" />
-				<p className="legend">Legend 3</p>
+				<img src="IMG_0781.JPG" alt="Christmas party" />
+				<p className="legend">Christmas party</p>
 			</div>
 		</Carousel>
 	);

@@ -1,19 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./styles/project.css";
 
 const Project = (props) => {
-	const { title, description, link } = props;
+	const { title, description } = props;
 
 	return (
 		<React.Fragment>
 			<div className="project">
-				<Link to={link}>
-					<div className="project-container">
-						<div className="project-title">{title}</div>
-						<div className="project-description">{description}</div>
-					</div>
-				</Link>
+				<div className="project-container">
+					<div className="project-title">{title}</div>
+					<div className="project-description">{description}</div>
+				</div>
 			</div>
 		</React.Fragment>
 	);
