@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+.RRT__tabs {
+    flex-wrap: unset!important;
+    overflow: auto;
+}
+
 @media (max-width: 1270px) {
 	.RRT__container {
 		max-width: 90%;
@@ -23,6 +28,6 @@
 	.RRT__container {
 		max-width: 90%;
 		margin: 0 auto;
-		padding: 0 10px;
+		padding: 4rem 10px;
 	}
 }
