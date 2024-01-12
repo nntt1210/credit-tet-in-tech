@@ -69,11 +69,11 @@ function BasicTabs() {
 					// scrollButtons
 					// allowScrollButtonsMobile
 				>
-					<Tab label="BanhMi" {...a11yProps(0)} />
-					<Tab label="Xoi" {...a11yProps(1)} />
-					<Tab label="BacXiu" {...a11yProps(2)} />
-					<Tab label="BunBo" {...a11yProps(3)} />
-					<Tab label="CaPhe" {...a11yProps(4)} />
+					<Tab label="BanhMi 🥖" {...a11yProps(0)} />
+					<Tab label="Xoi 🍚" {...a11yProps(1)} />
+					<Tab label="BacXiu ☕" {...a11yProps(2)} />
+					<Tab label="BunBo 🍜" {...a11yProps(3)} />
+					<Tab label="CaPhe ☕" {...a11yProps(4)} />
 				</Tabs>
 			</Box>
 			{data.map((squad, index) => (
