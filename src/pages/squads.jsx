@@ -66,6 +66,11 @@ function BasicTabs() {
 					value={value}
 					onChange={handleChange}
 					variant="scrollable"
+					TabIndicatorProps={{
+						style: {
+							backgroundColor: "#ec1d25",
+						},
+					}}
 					// scrollButtons
 					// allowScrollButtonsMobile
 				>

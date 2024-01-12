@@ -29,4 +29,6 @@
 .MuiButtonBase-root {
 	font-weight: 600!important;
     text-transform: none!important;
+	color: black!important;
 }
+
