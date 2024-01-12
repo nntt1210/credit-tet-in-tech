@@ -5,14 +5,12 @@ const Project = (props) => {
 	const { title, description } = props;
 
 	return (
-		<React.Fragment>
-			<div className="project">
-				<div className="project-container">
-					<div className="project-title">{title}</div>
-					<div className="project-description">{description}</div>
-				</div>
+		<div className="project">
+			<div className="project-container">
+				<p className="project-title">{title}</p>
+				<p className="project-description">{description}</p>
 			</div>
-		</React.Fragment>
+		</div>
 	);
 };
 
