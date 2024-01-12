@@ -33,7 +33,7 @@ export const Squad = ({
 	return (
 		<CustomTabPanel value={value} index={index}>
 			<div style={{ textAlign: "justify" }}>{mainContent}</div>
-			<div style={{ marginTop: "1rem", textAlign: "justify" }}>
+			<div style={{ margin: "1rem 0", textAlign: "justify" }}>
 				{secondaryContent}
 			</div>
 			<Carousel>
