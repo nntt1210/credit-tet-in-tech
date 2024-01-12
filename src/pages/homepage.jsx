@@ -52,7 +52,7 @@ const Homepage = () => {
 							</div>
 							<div style={{ marginTop: "1rem" }}>
 								<div
-									style={{ fontSize: "2rem" }}
+									style={{ fontSize: "1.75rem" }}
 									className="title homepage-title"
 								>
 									{INFO.homepage[1].title}
