@@ -75,7 +75,7 @@ function BasicTabs() {
 				<CustomTabPanel value={value} index={0}>
 					<div style={{ textAlign: "justify" }}>
 						<p>
-							Áo tu than is a visual depiction of the North
+							<i>Ao tu than</i> is a visual depiction of the North
 							region’s culture that has been modernized to
 							represent our Banh mi squad.
 						</p>
@@ -107,9 +107,10 @@ function BasicTabs() {
 				<CustomTabPanel value={value} index={1}>
 					<div style={{ textAlign: "justify" }}>
 						<p>
-							Áo ba ba embodies the essence of the culture of the
-							South, and its pure white color reminds us of the
-							delicious sticky rice known as Xoi in Vietnamese.
+							<i>Ao ba ba</i> embodies the essence of the culture
+							of the South, and its pure white color reminds us of
+							the delicious sticky rice known as Xoi in
+							Vietnamese.
 						</p>
 						<p>
 							With this costume, we aim to deliver the youthful,
@@ -138,14 +139,15 @@ function BasicTabs() {
 						<p>
 							While discussing traditional attire that represent
 							the Central region’s culture, people instantly
-							conjure up images of the Hue Ao dai. In fact, the
-							graceful Ao dai is prioritized wearing on numerous
-							traditional occasions by people from all 3 regions.
+							conjure up images of the <i>Hue Ao dai</i>. In fact,
+							the graceful <i>Ao dai</i> is prioritized wearing on
+							numerous traditional occasions by people from all 3
+							regions.
 						</p>
 						<p>
-							Our Ao dai features black and brown as the main hue,
-							which not only focuses on the male wearers, but also
-							represents BacXiu and CaPhe.
+							Our <i>Ao dai</i> features black and brown as the
+							main hue, which not only focuses on the male
+							wearers, but also represents BacXiu and CaPhe.
 						</p>
 						<p>
 							Coffee in black or white is a popular beverage among
