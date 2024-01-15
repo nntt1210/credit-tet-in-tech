@@ -23,7 +23,11 @@ function BasicTabs() {
 	return (
 		<Box sx={{ width: "100%" }}>
 			<Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-				<h2>CREDIT’S LUMINOUS SYMPHONY</h2>
+				<img
+					style={{ maxWidth: "100%" }}
+					src="Intro.png"
+					alt="Collection introduction"
+				/>
 				<div style={{ textAlign: "justify" }}>
 					<p>
 						The perfect combination of the costume quality,
@@ -74,6 +78,11 @@ function BasicTabs() {
 				</Tabs>
 				<CustomTabPanel value={value} index={0}>
 					<div style={{ textAlign: "justify" }}>
+						<img
+							style={{ display: "block", margin: "0 auto" }}
+							src="Ao tu than.png"
+							alt="Ao tu than"
+						/>
 						<p>
 							<i>Ao tu than</i> is a visual depiction of the North
 							region’s culture that has been modernized to
@@ -106,6 +115,11 @@ function BasicTabs() {
 				</CustomTabPanel>
 				<CustomTabPanel value={value} index={1}>
 					<div style={{ textAlign: "justify" }}>
+						<img
+							style={{ display: "block", margin: "0 auto" }}
+							src="Ao ba ba.png"
+							alt="Ao ba ba"
+						/>
 						<p>
 							<i>Ao ba ba</i> embodies the essence of the culture
 							of the South, and its pure white color reminds us of
@@ -136,6 +150,11 @@ function BasicTabs() {
 				</CustomTabPanel>
 				<CustomTabPanel value={value} index={2}>
 					<div style={{ textAlign: "justify" }}>
+						<img
+							style={{ display: "block", margin: "0 auto" }}
+							src="Ao dai.png"
+							alt="Ao dai"
+						/>
 						<p>
 							While discussing traditional attire that represent
 							the Central region’s culture, people instantly
@@ -165,6 +184,11 @@ function BasicTabs() {
 				</CustomTabPanel>
 				<CustomTabPanel value={value} index={3}>
 					<div style={{ textAlign: "justify" }}>
+						<img
+							style={{ display: "block", margin: "0 auto" }}
+							src="Corset.png"
+							alt="Corset"
+						/>
 						<p>
 							The garment's purple color brings back memories of
 							our idyllic Hue. Additionally, Hue is home to the
