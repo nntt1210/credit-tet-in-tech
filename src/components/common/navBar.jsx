@@ -40,15 +40,6 @@ const NavBar = (props) => {
 					>
 						<Link to="/outfits">Outfits</Link>
 					</li>
-					<li
-						className={
-							active === "contact"
-								? "nav-item active"
-								: "nav-item"
-						}
-					>
-						<Link to="/contact-info">Contact</Link>
-					</li>
 				</ul>
 				<div className="homepage-logo-container">
 					<div>
