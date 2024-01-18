@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import CustomTabPanel from "../common/tabpanel";
+import LazyImage from "../common/lazyimage";
 
 export const Squad = ({
 	value,
@@ -18,7 +19,11 @@ export const Squad = ({
 			<Carousel>
 				{images.map((image, index) => (
 					<div>
-						<img src={image} alt={"squad" + index} />
+						<LazyImage
+							src={image}
+							alt={"squad" + index}
+							PlaceholderSrc="placeholder.jpg"
+						/>
 					</div>
 				))}
 			</Carousel>

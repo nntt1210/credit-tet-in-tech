@@ -7,6 +7,8 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import CustomTabPanel from "../components/common/tabpanel";
 
+import LazyImage from "../components/common/lazyimage";
+
 function a11yProps(index) {
 	return {
 		id: `simple-tab-${index}`,
@@ -23,7 +25,7 @@ function BasicTabs() {
 	return (
 		<Box sx={{ width: "100%" }}>
 			<Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-				<img
+				<LazyImage
 					style={{ maxWidth: "100%" }}
 					src="Intro.png"
 					alt="Collection introduction"
@@ -78,7 +80,7 @@ function BasicTabs() {
 				</Tabs>
 				<CustomTabPanel value={value} index={0}>
 					<div style={{ textAlign: "justify" }}>
-						<img
+						<LazyImage
 							style={{ display: "block", margin: "0 auto" }}
 							src="Ao tu than.png"
 							alt="Ao tu than"
@@ -115,7 +117,7 @@ function BasicTabs() {
 				</CustomTabPanel>
 				<CustomTabPanel value={value} index={1}>
 					<div style={{ textAlign: "justify" }}>
-						<img
+						<LazyImage
 							style={{ display: "block", margin: "0 auto" }}
 							src="Ao ba ba.png"
 							alt="Ao ba ba"
@@ -150,7 +152,7 @@ function BasicTabs() {
 				</CustomTabPanel>
 				<CustomTabPanel value={value} index={2}>
 					<div style={{ textAlign: "justify" }}>
-						<img
+						<LazyImage
 							style={{ display: "block", margin: "0 auto" }}
 							src="Ao dai.png"
 							alt="Ao dai"
@@ -184,7 +186,7 @@ function BasicTabs() {
 				</CustomTabPanel>
 				<CustomTabPanel value={value} index={3}>
 					<div style={{ textAlign: "justify" }}>
-						<img
+						<LazyImage
 							style={{ display: "block", margin: "0 auto" }}
 							src="Corset.png"
 							alt="Corset"
