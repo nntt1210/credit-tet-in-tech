@@ -69,10 +69,6 @@ const Homepage = () => {
 						</div>
 
 						<HomePageCarousel />
-
-						<div className="page-footer">
-							<Footer />
-						</div>
 					</div>
 				</div>
 			</div>

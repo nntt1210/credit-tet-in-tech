@@ -29,6 +29,7 @@ function BasicTabs() {
 					style={{ maxWidth: "100%" }}
 					src="Intro.png"
 					alt="Collection introduction"
+					placeholderSrc="placeholder.jpg"
 				/>
 				<div style={{ textAlign: "justify" }}>
 					<p>
@@ -84,6 +85,7 @@ function BasicTabs() {
 							style={{ display: "block", margin: "0 auto" }}
 							src="Ao tu than.png"
 							alt="Ao tu than"
+							placeholderSrc="placeholder.jpg"
 						/>
 						<p>
 							<i>Ao tu than</i> is a visual depiction of the North
@@ -121,6 +123,7 @@ function BasicTabs() {
 							style={{ display: "block", margin: "0 auto" }}
 							src="Ao ba ba.png"
 							alt="Ao ba ba"
+							placeholderSrc="placeholder.jpg"
 						/>
 						<p>
 							<i>Ao ba ba</i> embodies the essence of the culture
@@ -156,6 +159,7 @@ function BasicTabs() {
 							style={{ display: "block", margin: "0 auto" }}
 							src="Ao dai.png"
 							alt="Ao dai"
+							placeholderSrc="placeholder.jpg"
 						/>
 						<p>
 							While discussing traditional attire that represent
@@ -190,6 +194,7 @@ function BasicTabs() {
 							style={{ display: "block", margin: "0 auto" }}
 							src="Corset.png"
 							alt="Corset"
+							placeholderSrc="placeholder.jpg"
 						/>
 						<p>
 							The garment's purple color brings back memories of

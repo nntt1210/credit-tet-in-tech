@@ -36,17 +36,19 @@ const LazyImage = ({
 					src={placeholderSrc}
 					alt=""
 					className={placeholderClassName}
-					style={placeholderStyle}
+					style={{ display: "block", margin: "0 auto" }}
 					ref={placeholderRef}
 				/>
 			)}
-			<img
-				src={view} // Gets src only when placeholder intersecting
-				className={className}
-				style={isLoading ? { display: "none" } : style}
-				alt={alt}
-				onLoad={() => setIsLoading(false)}
-			/>
+			<div class="fade-in-image">
+				<img
+					src={view} // Gets src only when placeholder intersecting
+					className={className}
+					style={isLoading ? { display: "none" } : style}
+					alt={alt}
+					onLoad={() => setIsLoading(false)}
+				/>
+			</div>
 		</>
 	);
 };

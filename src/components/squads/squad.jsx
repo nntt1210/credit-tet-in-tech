@@ -22,7 +22,7 @@ export const Squad = ({
 						<LazyImage
 							src={image}
 							alt={"squad" + index}
-							PlaceholderSrc="placeholder.jpg"
+							placeholderSrc="placeholder.jpg"
 						/>
 					</div>
 				))}
