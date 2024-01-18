@@ -36,7 +36,11 @@ const LazyImage = ({
 					src={placeholderSrc}
 					alt=""
 					className={placeholderClassName}
-					style={{ display: "block", margin: "0 auto" }}
+					style={{
+						display: "block",
+						margin: "0 auto",
+						maxWidth: "100%",
+					}}
 					ref={placeholderRef}
 				/>
 			)}
