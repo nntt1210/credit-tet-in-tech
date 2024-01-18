@@ -143,20 +143,10 @@
 
 }
 
-
-
 .top-link svg {
 	fill: #fff;
 	width: 20px;
 	height: 20px;
-}
-   
-.top-link:hover {
-	background-color: #E8E8E8;		
-}
-
-.top-link:hover svg {
-	fill: #000000;
 }
 
 @keyframes fadeIn {

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
@@ -25,7 +26,16 @@ function App() {
 				<Route path="/outfits" element={<Outfits />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
-			<a class="top-link" href="" id="js-top">
+			<a
+				class="top-link"
+				id="js-top"
+				onClick={(e) => {
+					e.preventDefault();
+					navigator.share({
+						url: "https://credit-tet-in-tech.netlify.app/",
+					});
+				}}
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					x="0px"
