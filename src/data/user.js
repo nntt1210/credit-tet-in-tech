@@ -4,15 +4,6 @@ const INFO = {
 		logo: "../logo.png",
 	},
 
-	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
-	},
-
 	homepage: [
 		{
 			title: "Corporate and Institutional",
@@ -27,18 +18,6 @@ const INFO = {
 				"Corporate Finance is responsible for all financing activity in the Corporate and Institutional Banking(C&IB). We manage the balance sheet for C&IB, while providing financing solutions for our customers in relevant global markets. ",
 		},
 	],
-
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
-
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
 
 	projects: [
 		{
